@@ -1,0 +1,15 @@
+The application is a database connector, it allows you connect to mysql and postgresql.
+you put your query that you would like to write in the top big text box.
+
+fill out the form inputs of username, ip, database, password and hit execute
+
+the program will run the query and return a table which will fill the datagrid on the bottom half of the application.
+
+Packages that I used are the SQL connector and the postgresql connector both of which can be installed from Nuget
+
+https://www.nuget.org/packages/System.Data.SqlClient
+https://www.nuget.org/packages/Npgsql/
+
+Tools -> Nuget Package manager -> open command line
+
+use install commands from the package pages
